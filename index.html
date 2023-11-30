@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dummy Website</title>
+</head>
+<body>
+    <header>
+        
+    <nav class="navbar">
+        <img class="logo" src="./images/profile-pic (1).png">
+        <ul class="list">
+            <li class="links">Home</li>
+            <li class="links">About</li>
+            <li class="links">Contact Us</li>
+        </ul>
+        <img src="./images/menu-btn.png" alt="" class="menu">
+    </nav>
+</header>
+<div class="container">
+    <div class="text">
+        <h1 class="title">Hi I am <span>Hamza </span>a Frontend <br>Developer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores necessitatibus a optio deserunt quam perspiciatis et laudantium possimus omnis voluptates commodi esse beatae sequi perferendis minima numquam fugiat, non ducimus atque est odit quas molestiae temporibus dolorum. Blanditiis, accusamus delectus?</p>
+    </div>
+    <div class="image">
+        <img class="me" src="./images/profile-pic (1).png" width="70%">
+    </div>
+</div>
+<div class="portfolio">
+    <h1 class="title2">Portfolio</h1>
+    <div class="images">
+        <img class="folio" src="./images/folio1.png" alt="">
+        <img class="folio" src="./images/folio2.jpeg" alt="">
+        <img class="folio" src="./images/folio3.avif" alt="">
+        
+    </div>
+    <div class="images2">
+        <img class="folio" src="./images/folio4.webp" alt="">
+        <img class="folio" src="./images/folio5.jpg" alt="">
+        <img class="folio" src="./images/folio6.jpg" alt="">
+    </div>
+</div>
+<div class="experience">
+    <h1 class="title3">My <span>Experience</span></h1>
+    <p>As an experienced frontend developer with 2 years of professional experience, I have honed my skills in creating user-friendly and visually appealing websites and applications. With a strong understanding of HTML, CSS, and JavaScript, I have developed websites that are responsive and optimized for various devices. I am also proficient in using modern frontend frameworks such as React and Vue.js to build scalable and dynamic user interfaces. With a keen eye for design and a passion for coding, I strive to create digital experiences that meet both user needs and business objectives.</p>
+</div>
+<div class="contact">
+    <h2>Lets Say Hi</h2>
+    <h3>mhamza6991@gmail.com</h3>
+</div>
+<footer>
+    <h3>2023 | All Right Reserved</h3>
+</footer>
+
+
+<script>
+    const menuBtn = document.querySelector('.menu');
+    const list = document.querySelector('.list');
+
+    menuBtn.addEventListener('click', ()=>{
+        list.classList.toggle('menu')
+    })
+</script>
+</body>
+</html>

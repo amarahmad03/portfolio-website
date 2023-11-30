@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Merriweather&family=Montserrat:wght@400;800&family=Sacramento&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #393646;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 68px;
+    align-items: center;
+    
+}
+span{
+    color: red;
+    font-family: 'Sacramento', cursive;
+}
+p{
+    color: #fff;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 68px;
+    color: #fff;
+}
+.logo{
+    width: 80px;
+    border-radius: 50%;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    padding: 0 80px;
+    display: flex;
+    gap: 30px;
+}
+.text{
+    width: 50%;
+    height: 50%;
+    margin-top: 150px;
+}
+.image{
+    width: 50%;
+    margin-top: 50px;
+}
+.me{
+    margin-left: 150px;
+    border-radius: 50%;
+}
+.title{
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #fff;
+}
+.title2{
+    padding-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #fff;
+}
+.title3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.portfolio{
+    background-color: black;
+    height: 100vh;
+}
+.images{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+.images2{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.folio{
+    width: 30%;
+    height: 35vh;
+    border-radius: 40px;
+}
+.experience{
+    text-align: center;
+    padding: 50px 100px;
+    margin: 20px;
+    width: 100%;
+    height: 50vh;
+}
+.contact{
+    text-align: center;
+    background-color: black;
+    padding: 100px;
+}
+.menu{
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* Mobile Design */
+@media (max-width:825px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .list{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        text-align: center;
+        margin-top: -900px;
+        background: black;
+    }
+    .menu{
+        margin-top: 0px;
+    }
+}
